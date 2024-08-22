@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Display&family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+
+.window-resizable-handle
+  z-index: 4
+.FF15
+  --tjs-select-appearance: none
+  --tjs-select-background: #f9f9f9 url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"%3E%3Cpath d="M6 9l6 6 6-6"%3E%3C/path%3E%3C/svg%3E') no-repeat right 0.3rem center
+  --tjs-select-background-size: 16px 16px
+  --tjs-select-border: 1px solid #ccc
+  --tjs-select-border-radius: 4px
+  --tjs-select-box-shadow-focus: 0 0 5px rgba(0, 0, 0, 0.2)
+  --tjs-select-box-shadow-focus-visible: 0 0 5px rgba(0, 0, 0, 0.5)
+  --tjs-select-cursor: pointer
+  --tjs-select-flex: 1
+  --tjs-select-height: 24px /* Adjust height for smaller vertical size */
+  --tjs-select-outline-focus-visible: none
+  --tjs-select-outline-offset: 2px
+  --tjs-select-overflow: hidden
+  --tjs-select-padding: 0 5px /* Adjust padding for smaller size */
+  --tjs-select-text-overflow: ellipsis
+  --tjs-select-transition-focus-visible: box-shadow 0.2s ease
+  --tjs-select-width: auto /* Adjust width as needed */
+
+
+  /* Option variables */
+  --tjs-select-option-background: #23221d
+  --tjs-select-option-color: #b5b3a4
+
+
+  //- Fonts
+  h1
+    font-family: "Cinzel", sans-serif
+    font-weight: 400
+    font-style: normal
+    font-size: var(--size-xl-h)
+  p
+    font-family: "Trirong", serif
+    font-optical-sizing: auto
+    font-size: 1rem
+    font-style: normal
+    padding: 0
+
+  h2
+    font-size: var(--size-lg-h)
+  h3
+    font-size: var(--size-md-h)
+  h2, h3, [title] 
+    color: var(--color-highlight)
+  
+  h4
+    font-size: var(--size-sm-h)
+
+  .border-right 
+    border-right: 4px ridge var(--color-highlight)
+  
+  .right-border-gradient-mask 
+    mask-image: linear-gradient(0deg, transparent 0%, black 100%)
+
+
+  // alignment, accent and visibility
+  .bold 
+    font-weight: 700
+
+  
+  .left 
+    text-align: left
+
+  
+  .right 
+    text-align: right
+
+
+  .center 
+    text-align: center
+
+  
+  .hide 
+    visibility: hidden
+
+
+  .relative 
+    position: relative
+
+  
+  .justify-flexrow-vertical 
+    align-items: center
+
+  .tight 
+    padding: 0
+
+
+  .caption 
+    font-size: smaller
+
+
+  .light 
+    opacity: 0.5
+
+
+  .window-title 
+    font-size: 1.5em
+    font-weight: 700
+
+
+  .gap-4 
+    gap: 4px
+  .gap-15
+    gap: 15px
+
+
+  .no-wrap 
+    white-space: nowrap
+
+
+  .required 
+    font-size: large
+    margin-right: 2px
+    color: var(--color-positive)
+    display: none
+    &.active 
+      display: block
+      color: var(--color-negative)
+      animation: pulse 0.5s infinite
+  
+
+
+  // Colours
+  .negative 
+    color: var(--color-negative)
+
+
+  .positive 
+    color: var(--color-positive)
+
+
+
+

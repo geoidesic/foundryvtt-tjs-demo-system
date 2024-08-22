@@ -1,0 +1,50 @@
+{
+  "name": "surge",
+  "description": "A VTT-first RPG system.",
+  "license": "MIT License",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Noel da Costa <noeldacosta@gmail.com",
+  "contributors": [
+    "Noel da Costa <noeldacosta@gmail.com"
+  ],
+  "imports": {
+    "#runtime/*": "@typhonjs-fvtt/runtime/*",
+    "#standard/*": "@typhonjs-fvtt/svelte-standard/*"
+  },
+  "dependencies": {
+    "@typhonjs-fvtt/runtime": "^0.1.0",
+    "@typhonjs-fvtt/svelte-standard": "^0.1.0",
+    "lodash": "^4.17.21",
+    "set-manipulator": "^0.3.1",
+    "svelte": "^4.0.5",
+    "svelte-multiselect": "^10.0.0",
+    "tippy.js": "^6.3.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "@typhonjs-config/eslint-config": "^0.6.3",
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "eslint": "^8.44.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^3.0.0",
+    "pug": "^3.0.2",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.3",
+    "vitest": "^0.34.3",
+    "vitest-fetch-mock": "^0.2.2"
+  },
+  "browserslist": [
+    ">5%",
+    "not IE 11"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "eslint": "eslint .",
+    "test:unit": "vitest"
+  }
+}

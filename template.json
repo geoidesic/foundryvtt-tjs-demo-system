@@ -1,0 +1,70 @@
+{
+  "Actor": {
+    "types": [
+      "PC",
+      "NPC",
+      "Monster"
+    ],
+    "templates": {
+      "common": {
+        "attributes": {
+          "STR": 0,
+          "AGL": 0,
+          "HLT": 0,
+          "CHA": 0,
+          "INT": 0,
+          "PER": 0
+        }
+      }
+    },
+    "PC": {
+      "templates": [
+        "common"
+      ]
+    },
+    "NPC": {
+      "templates": [
+        "common"
+      ]
+    },
+    "Monster": {
+      "templates": [
+        "common"
+      ]
+    }
+  },
+  "Item": {
+    "types": [
+      "jobs"
+    ],
+    "templates": {
+      "base": {
+        "description": "",
+        "gmNotes": "",
+        "favourite": false,
+        "chatFlavour": "",
+        "code": null,
+        "sort": 0,
+        "bookmarked": false,
+        "modifyingAttribute": "",
+        "modifyingTrait": "",
+        "tags": []
+      },
+      "attributes": {
+        "attributes": {
+          "str": {
+            "std": 0,
+            "max": 0,
+            "cost": 0,
+            "canIncrease": true
+          }
+        }
+      },
+      "jobs": {
+        "templates": [
+          "base"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "<SYSTEM_ID",
+  "title": "<SYSTEM_TITLE>",
+  "description": "<SYSTEM_DESCRIPTION",
+  "authors": [
+    {
+      "name": "Noel da Costa",
+      "discord": "geoidesic",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/<GITHUB_PATH>",
+  "readme": "https://github.com/<GITHUB_PATH>/releases/download/latest/README.md",
+  "bugs": "https://github.com/<GITHUB_PATH>/issues",
+  "changelog": "https://github.com/<GITHUB_PATH>/releases/download/latest/CHANGELOG.md",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "esmodules": [
+    "index.js"
+  ],
+  "packs": [
+    {
+      "name": "jobs",
+      "label": "<SYSTEM_SHORTCODE> Jobs",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "<SYSTEM_SHORTCODE> Pregenerated Characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
+      "name": "conditions",
+      "label": "<SYSTEM_SHORTCODE> Conditions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
+      "name": "rolltables",
+      "label": "<SYSTEM_SHORTCODE> Roll Tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "<SYSTEM_SHORTCODE> Rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    }
+  ],
+  "packFolders": [
+    // {
+    //   "name": "Equipment",
+    //   "packs": [
+    //     "equipment",
+    //     "magic-items"
+    //   ]
+    // }
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/geoidesic/<GITHUB_PATH>/releases/download/latest/system.json",
+  "download": "https://github.com/geoidesic/<GITHUB_PATH>/releases/download/latest/titan.zip",
+  "gridSize": {
+    "units": "ft",
+    "distance": 5
+  },
+  "license": "LICENSE.txt",
+  "socket": true
+}
